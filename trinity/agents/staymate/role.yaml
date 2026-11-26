@@ -1,0 +1,28 @@
+id: staymate-support
+goal: Technische und soziale Fragen von Feriengästen sicher bearbeiten.
+allowed_tools:
+  - property_knowledge_search
+  - memory_search
+  - host_ticket_create
+  - response_generate
+skills:
+  - intent-routing
+  - property-retrieval
+  - empathetic-response
+  - deescalation
+  - multilingual
+  - clarifying-question
+  - technical-triage
+  - urgency-priority
+  - host-handoff
+  - faq-improvement
+  - conversation-summary
+permissions:
+  read_scopes: [selected_property, approved_memory]
+  write_scopes: [host_tickets, approved_memory]
+  external_network: model_provider_only
+budgets:
+  max_question_chars: 800
+  max_llm_calls_per_request: 1
+approvals:
+  required_for: [booking_change, price_change, cancellation, safety_action, external_message]

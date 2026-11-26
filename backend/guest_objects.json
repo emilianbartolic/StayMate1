@@ -1,0 +1,932 @@
+[
+  {
+    "id": "airbnb-gaertringen-70",
+    "name": "Apartment mit Terrasse · 70 m²",
+    "location": "Gärtringen · Raum Stuttgart",
+    "source_url": "https://www.airbnb.de/rooms/33947915",
+    "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/421713080.jpg?k=acfac9ba4523616cace707831c587c2808ea7fd9b11a7ad98fad0c1a8b53d470&o=",
+    "image_alt": "Wohnzimmer im Apartment mit Zugang zur Terrasse",
+    "check_in": null,
+    "check_out": null,
+    "facts": [
+      {
+        "id": "capacity",
+        "terms": [
+          "gäste",
+          "personen",
+          "person",
+          "people",
+          "sleep",
+          "bett",
+          "bed",
+          "schlaf",
+          "capacity"
+        ],
+        "source": "Unterkunftsprofil",
+        "answers": {
+          "de": "Für bis zu vier Gäste; ein Schlafzimmer und drei Betten.",
+          "en": "Up to four guests, with one bedroom and three beds."
+        }
+      },
+      {
+        "id": "size",
+        "terms": [
+          "größe",
+          "fläche",
+          "qm",
+          "m²",
+          "square",
+          "sqm"
+        ],
+        "source": "Inseratsangaben",
+        "answers": {
+          "de": "Das Apartment hat 70 m².",
+          "en": "The apartment is 70 square metres."
+        }
+      },
+      {
+        "id": "outdoor",
+        "terms": [
+          "terrasse",
+          "balkon",
+          "garten",
+          "outdoor"
+        ],
+        "source": "Inseratsangaben",
+        "answers": {
+          "de": "Es gibt eine private Terrasse und einen eigenen Eingang.",
+          "en": "A private terrace and private entrance are listed."
+        }
+      },
+      {
+        "id": "parking",
+        "terms": [
+          "park",
+          "auto",
+          "car",
+          "stellplatz"
+        ],
+        "source": "Inseratsangaben",
+        "answers": {
+          "de": "Zwei Parkplätze sind in den Inseratsangaben aufgeführt.",
+          "en": "Two parking spaces are listed."
+        }
+      },
+      {
+        "id": "kitchen",
+        "terms": [
+          "küche",
+          "kochen",
+          "kitchen"
+        ],
+        "source": "Inseratsangaben",
+        "answers": {
+          "de": "Eine voll ausgestattete Küche ist angegeben.",
+          "en": "A fully equipped kitchen is listed."
+        }
+      },
+      {
+        "id": "access",
+        "terms": [
+          "check-in",
+          "check in",
+          "schlüssel",
+          "code"
+        ],
+        "source": "Inseratsangaben",
+        "answers": {
+          "de": "Der Anbieter nennt einen 24-Stunden-Code-Check-in.",
+          "en": "The listing describes 24-hour code check-in."
+        }
+      }
+    ]
+  },
+  {
+    "id": "booking-gaertringen-110",
+    "name": "Apartment mit Balkon · 110 m²",
+    "location": "Gärtringen · Raum Stuttgart",
+    "source_url": "https://www.booking.com/hotel/de/3-zimmer-apartment-110-qm-max-5-personen-balkon-parkplatz-internet-250-mbit.de.html",
+    "image": "assets/properties/external-apartment-visualizations.png",
+    "image_alt": "KI-Visualisierung, kein Originalfoto des Apartments",
+    "check_in": null,
+    "check_out": null,
+    "facts": [
+      {
+        "id": "capacity",
+        "terms": [
+          "gäste",
+          "personen",
+          "person",
+          "people",
+          "sleep",
+          "bett",
+          "bed",
+          "schlaf",
+          "capacity"
+        ],
+        "source": "Unterkunftsprofil",
+        "answers": {
+          "de": "Für bis zu fünf Gäste mit zwei Schlafzimmern.",
+          "en": "Up to five guests in two bedrooms."
+        }
+      },
+      {
+        "id": "size",
+        "terms": [
+          "größe",
+          "fläche",
+          "qm",
+          "m²",
+          "square",
+          "sqm"
+        ],
+        "source": "Inseratsangaben",
+        "answers": {
+          "de": "Das Apartment ist mit 110 m² angegeben.",
+          "en": "The apartment is listed as 110 square metres."
+        }
+      },
+      {
+        "id": "outdoor",
+        "terms": [
+          "terrasse",
+          "balkon",
+          "garten",
+          "outdoor"
+        ],
+        "source": "Inseratsangaben",
+        "answers": {
+          "de": "Ein Balkon ist angegeben.",
+          "en": "A balcony is listed."
+        }
+      },
+      {
+        "id": "parking",
+        "terms": [
+          "park",
+          "auto",
+          "car",
+          "stellplatz"
+        ],
+        "source": "Inseratsangaben",
+        "answers": {
+          "de": "Kostenloser Privatparkplatz ist angegeben.",
+          "en": "Free private parking is listed."
+        }
+      },
+      {
+        "id": "internet",
+        "terms": [
+          "wlan",
+          "wi-fi",
+          "wifi",
+          "internet",
+          "arbeit",
+          "work",
+          "desk"
+        ],
+        "source": "Ausstattung",
+        "answers": {
+          "de": "Das Inserat nennt WLAN mit 250 Mbit/s.",
+          "en": "The listing states Wi-Fi at 250 Mbps."
+        }
+      },
+      {
+        "id": "pets",
+        "terms": [
+          "haustier",
+          "hund",
+          "katze",
+          "pet"
+        ],
+        "source": "Inseratsangaben",
+        "answers": {
+          "de": "Haustiere sind laut Inserat auf Anfrage möglich; bitte vom Anbieter bestätigen lassen.",
+          "en": "Pets are available on request per the listing; confirm with the provider."
+        }
+      }
+    ],
+    "image_position": "visualization-left"
+  },
+  {
+    "id": "stuttgart-hinterhaus",
+    "name": "Gemütliches Hinterhaus",
+    "location": "Stuttgart · Weilimdorf",
+    "source_url": "https://www.ferienwohnungen.de/vacation-home/70219532",
+    "image": "https://img.holidu.com/images/c2135189-8b9f-4c57-82d3-ee9c99e5a770/l.jpg",
+    "image_alt": "Innenansicht des Hinterhauses in Stuttgart-Weilimdorf",
+    "check_in": null,
+    "check_out": null,
+    "facts": [
+      {
+        "id": "capacity",
+        "terms": [
+          "gäste",
+          "personen",
+          "person",
+          "people",
+          "sleep",
+          "bett",
+          "bed",
+          "schlaf",
+          "capacity"
+        ],
+        "source": "Unterkunftsprofil",
+        "answers": {
+          "de": "Für bis zu vier Personen mit einem Schlafzimmer; Schlafmöglichkeiten laut Angebot für vier.",
+          "en": "Up to four people with one bedroom; sleeping places for four are listed."
+        }
+      },
+      {
+        "id": "size",
+        "terms": [
+          "größe",
+          "fläche",
+          "qm",
+          "m²",
+          "square",
+          "sqm"
+        ],
+        "source": "Inseratsangaben",
+        "answers": {
+          "de": "Das Ferienhaus hat 35 m².",
+          "en": "The holiday home is 35 square metres."
+        }
+      },
+      {
+        "id": "amenities",
+        "terms": [
+          "klimaanlage",
+          "air condition",
+          "waschmaschine",
+          "trockner",
+          "küche"
+        ],
+        "source": "Inseratsangaben",
+        "answers": {
+          "de": "Klimaanlage, WLAN, Küche, Waschmaschine und Trockner sind aufgeführt.",
+          "en": "Air conditioning, Wi-Fi, kitchen, washing machine and dryer are listed."
+        }
+      },
+      {
+        "id": "parking",
+        "terms": [
+          "park",
+          "auto",
+          "car",
+          "stellplatz"
+        ],
+        "source": "Inseratsangaben",
+        "answers": {
+          "de": "Parken ist an der Straße möglich; ein privater Stellplatz ist nicht angegeben.",
+          "en": "Street parking is available; no private space is listed."
+        }
+      },
+      {
+        "id": "access",
+        "terms": [
+          "treppe",
+          "stairs",
+          "zugang"
+        ],
+        "source": "Inseratsangaben",
+        "answers": {
+          "de": "Zum Obergeschoss führt eine Raumspartreppe; ein Treppengitter ist angegeben.",
+          "en": "A space-saving staircase leads upstairs; a safety gate is listed."
+        }
+      }
+    ]
+  },
+  {
+    "id": "konstanz-ana",
+    "name": "Ferienwohnung Ana",
+    "location": "Konstanz · Musikerviertel",
+    "source_url": "https://www.bodensee.travel/ferienwohnung-konstanz-ana/",
+    "image": "assets/properties/external-apartment-visualizations.png",
+    "image_alt": "KI-Visualisierung, kein Originalfoto der Wohnung Ana",
+    "check_in": null,
+    "check_out": null,
+    "facts": [
+      {
+        "id": "capacity",
+        "terms": [
+          "gäste",
+          "personen",
+          "person",
+          "people",
+          "sleep",
+          "bett",
+          "bed",
+          "schlaf",
+          "capacity"
+        ],
+        "source": "Unterkunftsprofil",
+        "answers": {
+          "de": "Für bis zu sechs Personen mit drei Schlafzimmern und sechs Schlafplätzen.",
+          "en": "Up to six people, with three bedrooms and six sleeping places."
+        }
+      },
+      {
+        "id": "size",
+        "terms": [
+          "größe",
+          "fläche",
+          "qm",
+          "m²",
+          "square",
+          "sqm"
+        ],
+        "source": "Inseratsangaben",
+        "answers": {
+          "de": "Die Wohnung hat rund 80 m².",
+          "en": "The apartment is about 80 square metres."
+        }
+      },
+      {
+        "id": "location",
+        "terms": [
+          "lage",
+          "see",
+          "lake",
+          "bodensee",
+          "entfernung"
+        ],
+        "source": "Vermieterangaben",
+        "answers": {
+          "de": "Der Bodensee ist laut Anbieter etwa 100 m entfernt; die Altstadt ist zu Fuß erreichbar.",
+          "en": "The host says Lake Constance is about 100 metres away; the old town is walkable."
+        }
+      },
+      {
+        "id": "outdoor",
+        "terms": [
+          "terrasse",
+          "balkon",
+          "garten",
+          "outdoor"
+        ],
+        "source": "Vermieterangaben",
+        "answers": {
+          "de": "Zwei Balkone sind vorhanden; einer davon bietet Seeblick.",
+          "en": "There are two balconies; one has a lake view."
+        }
+      },
+      {
+        "id": "parking",
+        "terms": [
+          "park",
+          "auto",
+          "car",
+          "stellplatz"
+        ],
+        "source": "Inseratsangaben",
+        "answers": {
+          "de": "Ein hauseigener Parkplatz ist angegeben.",
+          "en": "A private parking space is listed."
+        }
+      },
+      {
+        "id": "internet",
+        "terms": [
+          "wlan",
+          "wi-fi",
+          "wifi",
+          "internet",
+          "arbeit",
+          "work",
+          "desk"
+        ],
+        "source": "Ausstattung",
+        "answers": {
+          "de": "WLAN ist angegeben.",
+          "en": "Wi-Fi is listed."
+        }
+      },
+      {
+        "id": "access",
+        "terms": [
+          "treppe",
+          "stairs",
+          "barriere",
+          "accessibility"
+        ],
+        "source": "Vermieterangaben",
+        "answers": {
+          "de": "Die Wohnung liegt im ersten Stock und ist über eine Treppe erreichbar.",
+          "en": "The apartment is on the first floor and accessed by stairs."
+        }
+      }
+    ],
+    "image_position": "visualization-right"
+  },
+  {
+    "id": "villa-koepfler-family",
+    "name": "Wohnung Family · Villa Köpfler",
+    "location": "Gaienhofen · Bodensee",
+    "source_url": "https://www.villabodensee.eu/villa-koepfler/wohnung-family",
+    "image": "https://www.villabodensee.eu/fileadmin/_processed_/9/0/csm_WG-Family-OG-Kueche_bc56aa4ece.webp",
+    "image_alt": "Küche und Essbereich der Wohnung Family",
+    "check_in": null,
+    "check_out": null,
+    "facts": [
+      {
+        "id": "capacity",
+        "terms": [
+          "gäste",
+          "personen",
+          "person",
+          "people",
+          "sleep",
+          "bett",
+          "bed",
+          "schlaf",
+          "capacity"
+        ],
+        "source": "Unterkunftsprofil",
+        "answers": {
+          "de": "Maximal sechs Erwachsene und zwei Kinder laut Anbieter.",
+          "en": "The host lists a maximum of six adults and two children."
+        }
+      },
+      {
+        "id": "size",
+        "terms": [
+          "größe",
+          "fläche",
+          "qm",
+          "m²",
+          "square",
+          "sqm"
+        ],
+        "source": "Inseratsangaben",
+        "answers": {
+          "de": "Die Ferienwohnung umfasst 220 m² auf drei Ebenen.",
+          "en": "The apartment spans 220 square metres over three levels."
+        }
+      },
+      {
+        "id": "bedrooms",
+        "terms": [
+          "schlafzimmer",
+          "bedroom",
+          "zimmer"
+        ],
+        "source": "Vermieterangaben",
+        "answers": {
+          "de": "Vier Schlafzimmer und zwei Bäder sind angegeben.",
+          "en": "Four bedrooms and two bathrooms are listed."
+        }
+      },
+      {
+        "id": "outdoor",
+        "terms": [
+          "dachterrasse",
+          "balkon",
+          "terrasse",
+          "lake view"
+        ],
+        "source": "Vermieterangaben",
+        "answers": {
+          "de": "Eine Dachterrasse mit Bodenseeblick ist angegeben.",
+          "en": "A rooftop terrace with Lake Constance views is listed."
+        }
+      },
+      {
+        "id": "amenities",
+        "terms": [
+          "sauna",
+          "pool",
+          "schwimmbad"
+        ],
+        "source": "Vermieterangaben",
+        "answers": {
+          "de": "Eine Sauna und ein gemeinschaftlicher Naturpool sind angegeben.",
+          "en": "A sauna and shared natural pool are listed."
+        }
+      },
+      {
+        "id": "parking",
+        "terms": [
+          "park",
+          "auto",
+          "car",
+          "stellplatz"
+        ],
+        "source": "Inseratsangaben",
+        "answers": {
+          "de": "Zwei Außenstellplätze sind angegeben.",
+          "en": "Two outdoor parking spaces are listed."
+        }
+      }
+    ]
+  },
+  {
+    "id": "seebalkon-radolfzell",
+    "name": "Seebalkon · wählbare Wohnungsgröße",
+    "location": "Radolfzell · Halbinsel Mettnau",
+    "source_url": "https://www.seebalkon.de/buchen/",
+    "image": "https://www.bodenseeurlaub.de/media/jfewo/images/981/thumb/balkon1579025644-a3e32b53.jpg",
+    "image_alt": "Balkon der Ferienwohnung Seebalkon mit Blick zum Bodensee",
+    "check_in": null,
+    "check_out": null,
+    "facts": [
+      {
+        "id": "capacity",
+        "terms": [
+          "gäste",
+          "personen",
+          "person",
+          "people",
+          "sleep",
+          "bett",
+          "bed",
+          "schlaf",
+          "capacity"
+        ],
+        "source": "Unterkunftsprofil",
+        "answers": {
+          "de": "Je nach Buchung für ein bis sechs Personen.",
+          "en": "For one to six people depending on the booked size."
+        }
+      },
+      {
+        "id": "size",
+        "terms": [
+          "größe",
+          "fläche",
+          "qm",
+          "m²",
+          "square",
+          "sqm"
+        ],
+        "source": "Vermieterangaben",
+        "answers": {
+          "de": "70 m² für ein bis zwei Personen, 90 m² für drei bis vier und 110 m² für fünf bis sechs.",
+          "en": "70 sqm for one or two people, 90 sqm for three or four, and 110 sqm for five or six."
+        }
+      },
+      {
+        "id": "bedrooms",
+        "terms": [
+          "schlafzimmer",
+          "bedroom",
+          "zimmer"
+        ],
+        "source": "Vermieterangaben",
+        "answers": {
+          "de": "Je nach Größe hat die Wohnung bis zu drei Schlafzimmer.",
+          "en": "Depending on size, the apartment has up to three bedrooms."
+        }
+      },
+      {
+        "id": "outdoor",
+        "terms": [
+          "balkon",
+          "seeblick",
+          "terrasse",
+          "garten"
+        ],
+        "source": "Vermieterangaben",
+        "answers": {
+          "de": "Ein Seeblick-Balkon und eine Liegewiese sind angegeben.",
+          "en": "A lake-view balcony and lawn are listed."
+        }
+      },
+      {
+        "id": "parking",
+        "terms": [
+          "park",
+          "auto",
+          "car",
+          "stellplatz"
+        ],
+        "source": "Inseratsangaben",
+        "answers": {
+          "de": "Zwei Parkplätze sind angegeben.",
+          "en": "Two parking spaces are listed."
+        }
+      },
+      {
+        "id": "internet",
+        "terms": [
+          "wlan",
+          "wi-fi",
+          "wifi",
+          "internet",
+          "arbeit",
+          "work",
+          "desk"
+        ],
+        "source": "Ausstattung",
+        "answers": {
+          "de": "WLAN ist angegeben.",
+          "en": "Wi-Fi is listed."
+        }
+      }
+    ]
+  },
+  {
+    "id": "stuttgart-four-room",
+    "name": "Großzügig wohnen · 95 m²",
+    "location": "Stuttgart · Bad Cannstatt",
+    "source_url": "https://www.airbnb.de/rooms/1422649983145720762",
+    "image": "https://a0.muscache.com/im/pictures/miso/Hosting-1422649983145720762/original/844df4cf-c8c8-4ffc-bfad-981335f72a9e.jpeg?im_w=720",
+    "image_alt": "Wohnbereich des 95-m²-Apartments in Stuttgart",
+    "check_in": null,
+    "check_out": null,
+    "facts": [
+      {
+        "id": "capacity",
+        "terms": [
+          "gäste",
+          "personen",
+          "person",
+          "people",
+          "sleep",
+          "bett",
+          "bed",
+          "schlaf",
+          "capacity"
+        ],
+        "source": "Unterkunftsprofil",
+        "answers": {
+          "de": "Für bis zu vier Gäste mit zwei Schlafzimmern und zwei Doppelbetten.",
+          "en": "Up to four guests with two bedrooms and two double beds."
+        }
+      },
+      {
+        "id": "size",
+        "terms": [
+          "größe",
+          "fläche",
+          "qm",
+          "m²",
+          "square",
+          "sqm"
+        ],
+        "source": "Inseratsangaben",
+        "answers": {
+          "de": "Die Wohnung umfasst rund 95 m² und vier Zimmer.",
+          "en": "The apartment is about 95 square metres with four rooms."
+        }
+      },
+      {
+        "id": "work",
+        "terms": [
+          "arbeitszimmer",
+          "arbeiten",
+          "work",
+          "desk"
+        ],
+        "source": "Inseratsangaben",
+        "answers": {
+          "de": "Ein separates Arbeitszimmer und WLAN sind angegeben.",
+          "en": "A separate workspace and Wi-Fi are listed."
+        }
+      },
+      {
+        "id": "outdoor",
+        "terms": [
+          "garten",
+          "balkon",
+          "terrasse"
+        ],
+        "source": "Inseratsangaben",
+        "answers": {
+          "de": "Ein Garten steht zur Mitbenutzung bereit.",
+          "en": "A shared garden is listed."
+        }
+      },
+      {
+        "id": "parking",
+        "terms": [
+          "park",
+          "auto",
+          "car",
+          "stellplatz"
+        ],
+        "source": "Inseratsangaben",
+        "answers": {
+          "de": "Parkplätze vor dem Haus sind angegeben.",
+          "en": "Parking spaces in front of the house are listed."
+        }
+      },
+      {
+        "id": "location",
+        "terms": [
+          "max-eyth",
+          "neckar",
+          "lage",
+          "location"
+        ],
+        "source": "Inseratsangaben",
+        "answers": {
+          "de": "Die ruhige Lage ist nahe Max-Eyth-See und Neckar; die Anbindung zum Hauptbahnhof wird mit etwa 20 Minuten angegeben.",
+          "en": "The quiet location is near Max-Eyth-See and the Neckar; the listing says Stuttgart main station is about 20 minutes away."
+        }
+      }
+    ]
+  },
+  {
+    "id": "konstanz-unteres-paradies",
+    "name": "Unteres Paradies · 46 m²",
+    "location": "Konstanz · Paradies",
+    "source_url": "https://www.konstanz-ferienwohnung.de/",
+    "image": "assets/properties/konstanz-visualizations.png",
+    "image_alt": "KI-Visualisierung, kein Originalfoto des Unteren Paradies",
+    "check_in": null,
+    "check_out": null,
+    "facts": [
+      {
+        "id": "capacity",
+        "terms": [
+          "gäste",
+          "personen",
+          "person",
+          "people",
+          "sleep",
+          "bett",
+          "bed",
+          "schlaf",
+          "capacity"
+        ],
+        "source": "Unterkunftsprofil",
+        "answers": {
+          "de": "Für bis zu zwei Personen.",
+          "en": "For up to two people."
+        }
+      },
+      {
+        "id": "size",
+        "terms": [
+          "größe",
+          "fläche",
+          "qm",
+          "m²",
+          "square",
+          "sqm"
+        ],
+        "source": "Inseratsangaben",
+        "answers": {
+          "de": "Die Wohnung hat 46 m².",
+          "en": "The apartment has 46 square metres."
+        }
+      },
+      {
+        "id": "outdoor",
+        "terms": [
+          "balkon",
+          "terrasse",
+          "garten"
+        ],
+        "source": "Vermieterangaben",
+        "answers": {
+          "de": "Ein sonniger Balkon mit Gartenmöbeln ist angegeben.",
+          "en": "A sunny balcony with garden furniture is listed."
+        }
+      },
+      {
+        "id": "location",
+        "terms": [
+          "altstadt",
+          "seerhein",
+          "lage",
+          "location"
+        ],
+        "source": "Vermieterangaben",
+        "answers": {
+          "de": "Etwa zehn Minuten zu Fuß zur Altstadt und fünf Minuten zum Seerhein.",
+          "en": "About ten minutes on foot to the old town and five minutes to the Seerhein."
+        }
+      },
+      {
+        "id": "amenities",
+        "terms": [
+          "küche",
+          "wlan",
+          "wifi"
+        ],
+        "source": "Vermieterangaben",
+        "answers": {
+          "de": "Eine voll ausgestattete Küche, WLAN, Bettwäsche und Handtücher sind angegeben.",
+          "en": "A fully equipped kitchen, Wi-Fi, bed linen and towels are listed."
+        }
+      },
+      {
+        "id": "stay",
+        "terms": [
+          "nächte",
+          "minimum",
+          "mindestaufenthalt"
+        ],
+        "source": "Vermieterangaben",
+        "answers": {
+          "de": "Der Mindestaufenthalt beträgt sechs Nächte.",
+          "en": "The minimum stay is six nights."
+        }
+      }
+    ],
+    "image_position": "paradise-left"
+  },
+  {
+    "id": "konstanz-oberes-paradies",
+    "name": "Oberes Paradies · bis 85 m²",
+    "location": "Konstanz · Paradies",
+    "source_url": "https://www.konstanz-ferienwohnung.de/",
+    "image": "assets/properties/konstanz-visualizations.png",
+    "image_alt": "KI-Visualisierung, kein Originalfoto des Oberen Paradies",
+    "check_in": null,
+    "check_out": null,
+    "facts": [
+      {
+        "id": "capacity",
+        "terms": [
+          "gäste",
+          "personen",
+          "person",
+          "people",
+          "sleep",
+          "bett",
+          "bed",
+          "schlaf",
+          "capacity"
+        ],
+        "source": "Unterkunftsprofil",
+        "answers": {
+          "de": "Für bis zu vier Personen; bei vier Personen ist die 85-m²-Variante mit zwei Schlafzimmern beschrieben.",
+          "en": "Up to four people; the 85-square-metre option with two bedrooms is described for four."
+        }
+      },
+      {
+        "id": "size",
+        "terms": [
+          "größe",
+          "fläche",
+          "qm",
+          "m²",
+          "square",
+          "sqm"
+        ],
+        "source": "Inseratsangaben",
+        "answers": {
+          "de": "Das Dachgeschoss ist je nach Belegung 67 oder 85 m² groß.",
+          "en": "The attic apartment is 67 or 85 square metres depending on occupancy."
+        }
+      },
+      {
+        "id": "access",
+        "terms": [
+          "treppe",
+          "dachgeschoss",
+          "stairs",
+          "attic"
+        ],
+        "source": "Inseratsangaben",
+        "answers": {
+          "de": "Die Wohnung liegt im Dachgeschoss; mögliche Treppen sind beim Vermieter zu klären.",
+          "en": "The apartment is in the attic; confirm stair access with the host."
+        }
+      },
+      {
+        "id": "outdoor",
+        "terms": [
+          "balkon",
+          "terrasse"
+        ],
+        "source": "Vermieterangaben",
+        "answers": {
+          "de": "Ein überdachter Balkon ist angegeben.",
+          "en": "A covered balcony is listed."
+        }
+      },
+      {
+        "id": "amenities",
+        "terms": [
+          "eckbadewanne",
+          "waschmaschine",
+          "wlan",
+          "küche"
+        ],
+        "source": "Vermieterangaben",
+        "answers": {
+          "de": "Eckbadewanne, Dusche, Waschmaschine, WLAN und Küche sind angegeben.",
+          "en": "A corner bath, shower, washing machine, Wi-Fi and kitchen are listed."
+        }
+      },
+      {
+        "id": "stay",
+        "terms": [
+          "nächte",
+          "minimum",
+          "mindestaufenthalt"
+        ],
+        "source": "Vermieterangaben",
+        "answers": {
+          "de": "Der Mindestaufenthalt beträgt sechs Nächte.",
+          "en": "The minimum stay is six nights."
+        }
+      }
+    ],
+    "image_position": "paradise-right"
+  }
+]

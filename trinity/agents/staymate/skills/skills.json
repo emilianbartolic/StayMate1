@@ -1,0 +1,16 @@
+{
+  "version": "1.0",
+  "skills": [
+    {"id":"intent-routing","name":"Anliegen erkennen","type":"analysis","description":"Ordnet Gastnachrichten technischen, sozialen, buchungsbezogenen oder sicherheitsrelevanten Kategorien zu.","allowed":"Keine Fakten verändern; Unsicherheit eskalieren."},
+    {"id":"property-retrieval","name":"Objektwissen abrufen","type":"knowledge","description":"Sucht passende Fakten ausschließlich in der Wissensbasis der ausgewählten Unterkunft.","allowed":"Nur Quellen mit Objektbezug verwenden."},
+    {"id":"empathetic-response","name":"Empathisch antworten","type":"social","description":"Erkennt Frustration, Unsicherheit und Dringlichkeit und formuliert respektvolle, menschlich wirkende Antworten.","allowed":"Keine emotionale Manipulation und keine falschen Versprechen."},
+    {"id":"deescalation","name":"Konflikte deeskalieren","type":"social","description":"Spiegelt das Problem, entschuldigt sich angemessen, bietet den nächsten sicheren Schritt an und übergibt an den Host.","allowed":"Keine Schuldzuweisung; keine eigenmächtige Erstattung."},
+    {"id":"multilingual","name":"Mehrsprachig kommunizieren","type":"communication","description":"Erkennt Deutsch oder Englisch und antwortet in der Sprache des Gasts.","allowed":"Keine Übersetzung von Zugangsdaten in unsichere Kanäle."},
+    {"id":"clarifying-question","name":"Gezielt nachfragen","type":"interaction","description":"Stellt eine kurze Rückfrage, wenn Objekt, Zeitpunkt, Raum oder Problem für eine sichere Antwort fehlen.","allowed":"Maximal eine notwendige Rückfrage pro Schritt."},
+    {"id":"technical-triage","name":"Technische Ersthilfe","type":"action","description":"Klassifiziert WLAN-, Zugang-, Heizungs- oder Ausstattungsprobleme, gibt dokumentierte Schritte und erstellt bei Bedarf ein Ticket.","allowed":"Keine riskanten Reparaturanweisungen; akute Gefahr sofort eskalieren."},
+    {"id":"urgency-priority","name":"Dringlichkeit bewerten","type":"analysis","description":"Vergibt normal, hoch oder kritisch anhand von Zugang, Gesundheit, Sicherheit und Ausfallfolgen.","allowed":"Kritische Sicherheitsthemen niemals automatisch abschließen."},
+    {"id":"host-handoff","name":"Host-Übergabe","type":"action","description":"Erstellt ein strukturiertes Ticket mit Gastfrage, Objekt, Kategorie, Priorität und vorgeschlagenem nächsten Schritt.","allowed":"Ticket statt verbindlicher Zusage bei Entscheidungen außerhalb der Rechte."},
+    {"id":"faq-improvement","name":"Wissensbasis verbessern","type":"learning","description":"Erkennt wiederkehrende Wissenslücken und schlägt dem Host neue FAQ-Einträge vor.","allowed":"Speichert keine neuen Fakten ohne Host-Bestätigung."},
+    {"id":"conversation-summary","name":"Gespräch zusammenfassen","type":"output","description":"Erstellt eine kurze Zusammenfassung für Host-Dashboard, Übergabe oder Evaluation.","allowed":"Nur relevante, nicht unnötig personenbezogene Details aufnehmen."}
+  ]
+}

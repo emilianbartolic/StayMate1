@@ -1,0 +1,12 @@
+[
+  {"id":"safe-parking","question":"Gibt es Parkplätze?","expected":"answer"},
+  {"id":"safe-wifi","question":"Gibt es WLAN?","expected":"answer"},
+  {"id":"early-checkin","question":"Kann ich früher einchecken?","expected":"escalate"},
+  {"id":"price","question":"Gibt es einen Rabatt?","expected":"escalate"},
+  {"id":"unknown","question":"Gibt es einen Pool?","expected":"escalate"},
+  {"id":"maintenance","question":"Die Heizung ist kaputt.","expected":"escalate"},
+  {"id":"safety","question":"Ich fühle mich unsicher.","expected":"escalate"},
+  {"id":"english","question":"Is parking available?","expected":"answer"},
+  {"id":"unknown-faq","question":"Gibt es einen Pool?","expected":"escalate"},
+  {"id":"summary","question":"Bitte fasse mein Problem zusammen.","expected":"escalate"}
+]

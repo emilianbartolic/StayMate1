@@ -1,0 +1,1 @@
+"""Trinity-compatible project contracts."""

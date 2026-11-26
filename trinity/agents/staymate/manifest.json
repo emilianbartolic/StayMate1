@@ -1,0 +1,11 @@
+{
+  "id": "staymate-support",
+  "name": "StayMate Guest Support",
+  "version": "2.0.0",
+  "compatibility": {"hub_api": "2.0", "memory_schema": "2"},
+  "entrypoint": "/api/cli/chat",
+  "status": "enabled",
+  "model_adapter": "codex-cli-readonly",
+  "skills_catalog": "skills/skills.json",
+  "skill_count": 11
+}

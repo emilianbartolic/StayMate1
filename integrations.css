@@ -1,0 +1,6 @@
+.integration-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.integration-item{border:1px solid #dce6ed;border-radius:14px;padding:16px}
+.integration-item h3{margin:.15rem 0 .6rem}
+.integration-item strong{color:#8b5511}
+.integration-item ul{padding-left:1.2rem;color:#526c7e;font-size:.9rem}
+@media(max-width:760px){.integration-list{grid-template-columns:1fr}}

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>StayMate · Agentenverwaltung</title>
+  <link rel="stylesheet" href="settings.css" />
+  <link rel="stylesheet" href="integrations.css" />
+</head>
+<body>
+  <main class="wrap">
+    <header class="top"><a class="brand" href="/">StayMate</a><nav aria-label="Navigation"><a href="/">Wohnungssuche</a><a href="/staymate.html">Objekt-Chat</a></nav></header>
+    <section class="card wide" id="admin-login" hidden>
+      <h1>Host-Anmeldung</h1>
+      <p class="muted">Die Verwaltungsdaten sind geschützt. Beim ersten lokalen Start findest du das erzeugte Passwort in <code>user-data/local-admin-credentials.txt</code>.</p>
+      <form id="admin-login-form">
+        <label class="field">Host-E-Mail<input id="admin-email" type="email" autocomplete="username" value="host@staymate.local" required /></label>
+        <label class="field">Passwort<input id="admin-password" type="password" autocomplete="current-password" required /></label>
+        <button type="submit">Anmelden</button><p id="admin-login-status" class="notice" aria-live="polite"></p>
+      </form>
+    </section>
+    <div id="dashboard-content" hidden>
+    <section class="hero"><p class="eyebrow">LOKALE VERWALTUNG</p><h1>Agentenstatus &amp; Memory</h1><p class="lead">Der Agent verarbeitet Gästeanfragen über den angemeldeten Codex. Interne Fähigkeiten laufen im Hintergrund. Freigegebene Host-Notizen werden objektbezogen im lokalen SQLite-Speicher abgelegt.</p></section>
+    <section class="cards" aria-label="Betriebsstatus">
+      <article class="card"><h2>Sprachmodell</h2><p class="status" id="model-status">Wird geprüft …</p><p class="muted" id="model-detail">Codex bleibt auf diesem Rechner angemeldet.</p></article>
+      <article class="card"><h2>Portfolio</h2><p class="status" id="portfolio-status">Wird geladen …</p><p class="muted">Unterkunftsfakten werden getrennt pro Objekt abgerufen.</p></article>
+      <article class="card"><h2>Interne Agentenlogik</h2><p class="status" id="skill-status">Wird geladen …</p><p class="muted">Die Fähigkeiten sind nicht Teil der Gästeansicht.</p></article>
+      <article class="card"><h2>SQLite-Speicher</h2><p class="status" id="memory-count">Wird geladen …</p><p class="muted">Freigegebene Notizen und Host-Tickets bleiben lokal erhalten.</p></article>
+    </section>
+    <section class="card wide"><h2>Modell-Not-Aus</h2><p class="muted">Stoppt sofort neue Codex-Aufrufe. Bereits laufende Antworten werden noch beendet.</p><p id="model-stop-status" class="notice" aria-live="polite">Status wird geladen …</p><button id="model-stop-button" type="button">Neue Modellaufrufe stoppen</button><button id="model-resume-button" type="button" hidden>Modellaufrufe wieder aktivieren</button></section>
+    <section class="card wide"><h2>Host-Warteschlange</h2><p class="muted">Tickets und Antworten bleiben in dieser StayMate-Installation gespeichert. Für die externe Plattform muss der Host die Antwort dort selbst senden.</p><p><a href="/staymate.html">Host-Dashboard öffnen</a> · <a href="/api/tickets/export" target="_blank" rel="noopener noreferrer">Tickets als JSON exportieren</a></p><button id="backup-button" type="button">SQLite-Backup erstellen</button><p id="backup-status" class="notice" aria-live="polite"></p></section>
+    <section class="card wide"><h2>Anbieter-Verbindungen</h2><p class="muted">Die Booking.com Demand API kann mit freigeschaltetem Partnerzugang echte Unterkünfte und Verfügbarkeit für die Suche abrufen. Sie löst keine Buchung oder Zahlung aus. Airbnb- und Hostnachrichten bleiben manuell.</p><div id="integration-list" class="integration-list" aria-live="polite">Verbindungsstatus wird geprüft …</div><p><a href="https://developers.booking.com/demand/docs/development-guide/authentication" target="_blank" rel="noopener noreferrer">Booking.com Demand API</a> · <a href="https://www.airbnb.com/help/article/3418" target="_blank" rel="noopener noreferrer">Airbnb API-Programm</a> · <a href="https://developers.booking.com/connectivity/docs" target="_blank" rel="noopener noreferrer">Booking.com Connectivity APIs</a></p></section>
+    <section class="memory-grid wide">
+      <article class="card"><h2>Host-Notiz zur Wissensbasis vorschlagen</h2><p class="muted">Neue Notizen sind zunächst ausstehend und werden erst nach manueller Freigabe für Codex sichtbar.</p>
+        <form id="memory-form">
+          <label class="field">Notiz<textarea id="memory-content" required maxlength="2000" rows="4" placeholder="Nur bestätigte Informationen eintragen …"></textarea></label>
+          <label class="field">Geltungsbereich<select id="memory-scope"><option value="shared">Alle Unterkünfte</option></select></label>
+          <label class="field">Quelle<input id="memory-source" maxlength="100" value="Host-Bestätigung" /></label>
+          <button type="submit">Zur Prüfung speichern</button><p id="memory-status-message" class="notice" aria-live="polite"></p>
+        </form>
+      </article>
+      <article class="card"><h2>Notizen freigeben</h2><p class="muted">Freigegebene Einträge werden bei passenden Fragen an Codex übergeben.</p><div id="memory-list" aria-live="polite">Lade Einträge …</div></article>
+    </section>
+    <section class="card wide"><h2>CLI-Zugang zum selben Agenten</h2><p class="muted">Vom Projektordner aus stellt dieser Befehl eine Anfrage an denselben lokalen FastAPI-Dienst wie der Browser:</p><code class="code">python3 trinity/hub/cli_adapter.py "Gibt es Parkplätze?" --property design-maisonette</code><p class="muted">Für die Webansicht und den CLI-Zugang wird dasselbe lokale Codex-Konto genutzt.</p></section>
+    <p class="footer">Lokaler Einzelplatzbetrieb · API nur auf 127.0.0.1 · kein öffentlicher Hostzugriff</p>
+    </div>
+  </main>
+  <script src="settings.js"></script>
+</body>
+</html>

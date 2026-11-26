@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f6f8f5" />
+  <title>StayMate · Finde deinen Lieblingsort</title>
+  <link rel="stylesheet" href="finder.css?v=5" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="StayMate Startseite"><span class="brand-mark">s</span><span>staymate</span></a>
+    <nav aria-label="Hauptnavigation"><a href="#how">So funktioniert’s</a><a id="object-chat-switch" href="/staymate.html" hidden>Zum Objekt-Chat</a><a href="/settings.html">Agentenstatus</a></nav>
+    <button class="account-button" id="account-open"><span class="account-icon">♙</span><span id="account-label">Anmelden</span></button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy"><span class="kicker"><i></i> DEIN NÄCHSTER LIEBLINGSORT</span><h1>Finde einen Ort,<br /><em>der zu dir passt.</em></h1><p>Erzähl unserem WohnBuddy, was dir wichtig ist. Gemeinsam finden wir die passende Ferienwohnung.</p>
+        <div class="hero-bullets"><span>✦ Persönlich gesucht</span><span>♡ Mit Bildern & Grundriss</span></div></div>
+      <div class="hero-photo"><img src="assets/properties/lake-house.jpg" alt="Ferienhaus am Seeufer" /><div class="photo-note"><span>Ein guter Aufenthalt beginnt mit dem richtigen Ort.</span><b>⌂ Bodensee</b></div></div>
+    </section>
+
+    <section class="search-layout" id="search-layout" aria-label="Wohnungssuche mit WohnBuddy">
+      <div class="chat-card">
+        <header class="chat-heading"><div class="bot-face">✦</div><div><h2>Dein WohnBuddy</h2><p><i class="online-dot"></i> Codex hilft bei der Suche</p></div><span class="chat-pill">DEMO</span></header>
+        <div class="chat-progress"><div class="progress-copy"><span id="progress-title">Deine Suche</span><span id="progress-count">Schritt 1 von 10</span></div><div class="progress-rail"><span id="progress-bar"></span></div></div>
+        <div class="conversation" id="conversation" aria-live="polite">
+          <article class="bubble bot-bubble"><span class="bubble-avatar">✦</span><div><p>Hi! Ich helfe dir, eine Ferienwohnung zu finden, die wirklich zu dir passt. 🌿</p><p>In welcher Stadt oder Gegend möchtest du wohnen?</p></div></article>
+        </div>
+        <div class="suggested" id="suggested"><span>Zum Beispiel</span><button data-suggest="Stuttgart">Stuttgart</button><button data-suggest="Am Bodensee">Am Bodensee</button><button data-suggest="Ich bin flexibel">Ich bin flexibel</button></div>
+        <form id="chat-form" class="chat-input"><label class="sr-only" for="message-input">Deine Antwort</label><input id="message-input" placeholder="Schreib deine Antwort …" autocomplete="off" required maxlength="500" /><button type="submit" aria-label="Senden">↑</button></form>
+        <p class="privacy-hint">Dein Suchtext wird an Codex gesendet. Bei aktiver Live-Suche gehen Ort, Reisedaten, Gästezahl und Filter an Booking.com. Demo-Profil und Favoriten bleiben in diesem Browser.</p>
+      </div>
+
+      <aside class="match-panel" id="match-panel">
+        <div class="panel-heading"><div><span class="kicker">DEINE TREFFER</span><h2>Hier könnte es hingehen</h2></div><span class="match-count" id="match-count">0</span></div>
+        <div id="results" class="results-empty"><div class="empty-illustration">⌕</div><h3>Dein Ort wartet schon</h3><p>WohnBuddy fragt nach Reisezeit, Mitreisenden, Größe, Unterkunftsart, Budget, Ausstattung und weiteren Wünschen. Codex begleitet jede Antwort.</p><div class="mini-steps"><span class="current">Ort</span><span>Zeitraum</span><span>Gäste</span><span>Wünsche</span></div></div>
+        <p class="provider-notice" id="provider-notice" hidden role="status" aria-live="polite"></p>
+        <div id="listings" class="listing-list" hidden></div>
+        <p class="catalog-note">Für jede deutsche Großstadt und alle 26 Orte im Landkreis Böblingen gibt es fiktive Wohnideen mit fotorealistischen KI-Beispielbildern. Bildmotive können in verschiedenen Städten wiederkehren. Größe, Grundriss und Ausstattung sind Entwürfe, keine Inseratsangaben; die Ideen sind nicht buchbar. Echte Anbieterangebote werden nur angezeigt, wenn eine Live-Quelle eingerichtet ist.</p>
+      </aside>
+    </section>
+
+    <section class="how" id="how"><span class="kicker">EINFACH LOSLEGEN</span><h2>So findet ihr zusammen</h2><div class="how-steps"><article><span>01</span><h3>Erzähl, was du suchst</h3><p>WohnBuddy fragt genauer nach Personen, Budget, Schlafplätzen, Ausstattung und Lage.</p></article><article><span>02</span><h3>Wähle dein Objekt</h3><p>Codex erklärt die Empfehlung und vergleicht Alternativen mit deinen Antworten.</p></article><article><span>03</span><h3>Wechsle in den Objekt-Chat</h3><p>Stelle Fragen zur ausgewählten Unterkunft. Offene Punkte landen in der Host-Warteschlange.</p></article></div></section>
+  </main>
+
+  <dialog id="account-dialog" class="account-dialog"><form method="dialog" class="dialog-close"><button aria-label="Schließen">×</button></form><span class="bot-face large">✦</span><h2 id="account-title">Speichere deine Suche</h2><p id="account-description">Lege ein lokales Demo-Profil an, damit deine Suche in diesem Browser erhalten bleibt.</p><form id="account-form"><label id="name-label" for="name-input">Dein Name</label><input id="name-input" required maxlength="60" placeholder="Zum Beispiel Alex" /><label for="email-input">E-Mail-Adresse</label><input id="email-input" type="email" required maxlength="254" placeholder="alex@beispiel.de" /><label id="password-label" for="password-input" hidden>Passwort</label><input id="password-input" type="password" maxlength="256" autocomplete="current-password" hidden /><button class="primary-action" id="account-submit" type="submit">Demo-Profil anlegen</button><button class="quiet-button" id="account-toggle" type="button" hidden>Ich habe bereits ein Konto</button><button class="quiet-button" id="account-logout" type="button" hidden>Abmelden</button><p id="account-status" role="status" aria-live="polite"></p></form><small id="account-footnote">Demo-Modus: Es wird kein echtes Konto erstellt und keine E-Mail verschickt.</small></dialog>
+  <footer><a class="brand" href="/"><span class="brand-mark">s</span><span>staymate</span></a><span>Ein guter Ort fühlt sich richtig an.</span><a href="/staymate.html">StayMate für Gäste</a></footer>
+  <script src="finder.js?v=5"></script>
+</body>
+</html>

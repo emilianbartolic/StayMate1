@@ -1,0 +1,15 @@
+# Python environments and generated files
+backend/.venv/
+backend/.venv311/
+backend/.python-runtime/
+user-data/
+**/__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+
+# Local editor and OS files
+.DS_Store
+.idea/
+.vscode/
